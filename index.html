@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <title>Portofolio</title>
+  </head>
+  <body class="font-roboto">
+    <!-- Navbar Start -->
+    <nav
+      id="navbar"
+      class="bg-transparent py-4 absolute w-full transition duration-500 ease-in-out"
+    >
+      <div class="flex justify-between px-8 items-center relative">
+        <a class="font-bold text-2xl text-sky-900" href="#"
+          ><i>Mahesa Erlangga</i></a
+        >
+        <div class="flex items-center">
+          <button
+            id="hamburger"
+            type="button"
+            class="block absolute right-4 cursor-pointer"
+          >
+            <span
+              class="hamburger-line transition duration-200 ease-in-out origin-top-left"
+            ></span>
+            <span
+              class="hamburger-line transition duration-200 ease-in-out"
+            ></span>
+            <span
+              class="hamburger-line transition duration-200 ease-in-out origin-bottom-left"
+            ></span>
+          </button>
+          <div
+            id="nav-menu"
+            class="hidden absolute right-4 top-full max-w-[250px] w-full bg-white py-5 rounded-lg mt-6 shadow-lg z-20"
+          >
+            <ul class="block">
+              <li class="group">
+                <a
+                  class="text-base text-black mx-8 group-hover:text-primary py-2 flex"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  class="text-base text-black mx-8 group-hover:text-primary py-2 flex"
+                  href="#"
+                  >Skills & Experiences</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero" class="pt-36 pb-20 bg-hero">
+      <div class="@container">
+        <div class="flex flex-wrap md:flex-nowrap md:px-10 lg:px-28">
+          <div class="w-full self-start px-20">
+            <div class="mb-8">
+              <img
+                class="max-w-lg w-full mx-auto rounded-full bg-primary shadow-2xl shadow-black"
+                src="src/img/profile.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="w-full self-center px-4 text-center md:text-left">
+            <h1 class="font-bold text-primary text-4xl pb-1 lg:text-5xl">
+              Hi, I'm Mahesa
+            </h1>
+            <h2 class="font-semibold text-base pb-4 lg:text-xl">
+              Frontend Developer & UI/UX Designer
+            </h2>
+            <h2 class="mb-10 lg:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              laborum velit accusamus hic, molestias explicabo numquam voluptate
+              ex maxime sapiente.
+            </h2>
+            <a
+              href="#"
+              class="text-base font-semibold bg-primary text-white py-2 px-3 rounded-2xl hover:bg-sky-700 hover:shadow-lg transition duration-200 ease-in-out"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Skill Section Start -->
+    <section
+      id="skill"
+      class="pt-10 pb-20 px-10 bg-grey md:px-20 lg:px-30 xl:px-50"
+    >
+      <div class="py-10 text-center">
+        <h1 class="text-3xl font-bold py-4 text-primary lg:text-4xl">
+          Skills & Experiences
+        </h1>
+        <p class="min-w-20 lg:text-lg mb-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          debitis, nemo sapiente dolores veniam possimus blanditiis optio
+          inventore consectetur numquam.
+        </p>
+      </div>
+      <div
+        class="flex flex-wrap gap-16 m-10 justify-center md:flex-nowrap md:gap-10"
+      >
+        <div class="text-center py-6 px-8 shadow-xl rounded-3xl md:px-20">
+          <img
+            class="bg-primary w-22 mx-auto p-2 rounded-2xl"
+            src="src/img/front-end.png"
+            alt=""
+          />
+          <h1 class="text-lg font-bold my-4">Frontend Developer</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+            error?
+          </p>
+          <p class="mt-8 text-primary font-bold">Languages:</p>
+          <p>HTML, CSS, Javascript, PHP, SQL, Git</p>
+          <p class="mt-8 text-primary font-bold">Dev Tools:</p>
+          <p>VS Code, Bootstrap, Tailwind CSS, Github</p>
+        </div>
+        <div class="text-center py-6 px-8 shadow-xl rounded-3xl md:px-20">
+          <img
+            class="bg-primary w-22 mx-auto p-2 rounded-2xl"
+            src="src/img/ux-design.png"
+            alt=""
+          />
+          <h1 class="text-lg font-bold my-4">UI/UX Designer</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+            error?
+          </p>
+          <p class="mt-8 text-primary font-bold">Design:</p>
+          <p>UI, UX, Web, Apps</p>
+          <p class="mt-8 text-primary font-bold">Design Tools:</p>
+          <p>Figma, Webflow, Canva, Blender</p>
+        </div>
+      </div>
+    </section>
+    <!-- Skill Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="porto" class="pb-30">
+      <div
+        class="pt-20 pb-40 px-10 text-center bg-primary text-white absolute -z-10 w-full"
+      >
+        <h1 class="text-3xl font-bold py-4 lg:text-4xl">Portofolio</h1>
+        <p class="mb-8 lg:mx-30 lg:text-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          debitis, nemo sapiente dolores veniam possimus blanditiis optio
+          inventore consectetur numquam. Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Eligendi id reprehenderit accusantium, qui vero
+          maiores deserunt aperiam ullam nulla doloremque?
+        </p>
+      </div>
+      <div
+        class="flex flex-wrap gap-10 pt-120 px-8 sm:pt-85 md:justify-center md:flex-nowrap md:pt-85 lg:pt-75"
+      >
+        <div
+          class="text-center shadow-md shadow-primary px-4 py-8 border-primary border rounded-2xl bg-white"
+        >
+          <img class="rounded-2xl" src="src/img/portofolio/01.png" alt="" />
+          <h1 class="font-bold text-xl pt-4 text-primary lg:text-2xl">
+            Vistaland
+          </h1>
+          <p class="text-base lg:text-lg">
+            Project web perumahan yang dibangun dengan menggunakan PHP dan
+            MySQL.
+          </p>
+        </div>
+        <div
+          class="text-center shadow-md shadow-primary px-4 py-8 border-primary border rounded-2xl bg-white"
+        >
+          <img class="rounded-2xl" src="src/img/portofolio/02.png" alt="" />
+          <h1 class="font-bold text-xl pt-4 text-primary lg:text-2xl">
+            E-Commerce
+          </h1>
+          <p class="text-base lg:text-lg">
+            Project tampilan web e-commerce sederhana yang dibangun dengan
+            menggunakan framework Bootstrap
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Portofolio Section End -->
+
+    <!-- Footer Section Start -->
+    <section class="bg-sky-950 text-white text-center pt-20 pb-6 px-5">
+      <div class="flex flex-col">
+        <h1 class="font-medium text-base lg:text-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          quo.
+        </h1>
+        <div class="flex justify-center gap-8 mt-10 mb-18">
+          <a
+            class="border rounded-full p-3 hover:bg-sky-900 hover:border-sky-950 hover:shadow-xl transition duration-200 ease-in-out"
+            href=""
+            ><img src="src/img/linkedin.svg" alt=""
+          /></a>
+          <a
+            class="border rounded-full p-3 hover:bg-sky-900 hover:border-sky-950 hover:shadow-xl transition duration-200 ease-in-out"
+            href=""
+            ><img src="src/img/instagram.svg" alt=""
+          /></a>
+          <a
+            class="border rounded-full p-3 hover:bg-sky-900 hover:border-sky-950 hover:shadow-xl transition duration-200 ease-in-out"
+            href=""
+            ><img src="src/img/phone.svg" alt=""
+          /></a>
+        </div>
+        <p class="text-sm">Created by Mahesa Erlangga © 2025</p>
+        <div class="mt-4 flex justify-center gap-2">
+          <p class="text-xs self-center">Made by</p>
+          <img
+            class="w-32 bg-white p-1.5 rounded-2xl"
+            src="src/img/tailwind.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section End -->
+  </body>
+
+  <script src="src/script.js"></script>
+</html>
