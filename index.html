@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,17 +10,17 @@
     <!-- Navbar Start -->
     <nav
       id="navbar"
-      class="bg-transparent py-4 absolute w-full transition duration-500 ease-in-out"
+      class="bg-transparent absolute w-full transition duration-500 ease-in-out py-4"
     >
       <div class="flex justify-between px-8 items-center relative">
-        <a class="font-bold text-2xl text-sky-900" href="#"
+        <a class="font-bold text-2xl text-sky-900 lg:text-3xl" href="#"
           ><i>Mahesa Erlangga</i></a
         >
         <div class="flex items-center">
           <button
             id="hamburger"
             type="button"
-            class="block absolute right-4 cursor-pointer"
+            class="block absolute right-4 cursor-pointer lg:hidden"
           >
             <span
               class="hamburger-line transition duration-200 ease-in-out origin-top-left"
@@ -34,21 +34,35 @@
           </button>
           <div
             id="nav-menu"
-            class="hidden absolute right-4 top-full max-w-[250px] w-full bg-white py-5 rounded-lg mt-6 shadow-lg z-20"
+            class="hidden absolute right-4 top-full max-w-[250px] w-full bg-white rounded-lg mt-6 shadow-lg z-20 lg:block lg:static lg:max-w-full lg:shadow-none lg:rounded-none lg:bg-transparent lg:mt-0"
           >
-            <ul class="block">
+            <ul class="block lg:flex">
               <li class="group">
                 <a
-                  class="text-base text-black mx-8 group-hover:text-primary py-2 flex"
+                  class="text-base text-black mx-8 group-hover:text-primary py-2 flex lg:text-xl"
                   href="#"
                   >Home</a
                 >
               </li>
               <li class="group">
                 <a
-                  class="text-base text-black mx-8 group-hover:text-primary py-2 flex"
-                  href="#"
+                  class="text-base text-black mx-8 group-hover:text-primary py-2 flex lg:text-xl"
+                  href="#skill"
                   >Skills & Experiences</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  class="text-base text-black mx-8 group-hover:text-primary py-2 flex lg:text-xl"
+                  href="#porto"
+                  >Portofolio</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  class="text-base text-black mx-8 group-hover:text-primary py-2 flex lg:text-xl"
+                  href="#sertif"
+                  >Sertifikat</a
                 >
               </li>
             </ul>
@@ -66,7 +80,7 @@
             <div class="mb-8">
               <img
                 class="max-w-lg w-full mx-auto rounded-full bg-primary shadow-2xl shadow-black"
-                src="src/img/profile.png"
+                src="src/img/profile.jpg"
                 alt=""
               />
             </div>
@@ -79,9 +93,9 @@
               Frontend Developer & UI/UX Designer
             </h2>
             <h2 class="mb-10 lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              laborum velit accusamus hic, molestias explicabo numquam voluptate
-              ex maxime sapiente.
+              Saya adalah mahasiswa aktif S1 - Semester 5 jurusan Sistem
+              Informasi yang tertarik pada bidang Web Developer, terutama
+              Frontend Web Developer.
             </h2>
             <a
               href="#"
@@ -97,16 +111,16 @@
     <!-- Skill Section Start -->
     <section
       id="skill"
-      class="pt-10 pb-20 px-10 bg-grey md:px-20 lg:px-30 xl:px-50"
+      class="pt-18 pb-20 px-10 bg-grey md:px-20 lg:px-30 xl:px-50"
     >
       <div class="py-10 text-center">
         <h1 class="text-3xl font-bold py-4 text-primary lg:text-4xl">
           Skills & Experiences
         </h1>
         <p class="min-w-20 lg:text-lg mb-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          debitis, nemo sapiente dolores veniam possimus blanditiis optio
-          inventore consectetur numquam.
+          Saya memiliki pengalaman dalam menggunakan beberapa bahasa pemrograman
+          dan framework. Saya juga dapat menjalankan beberapa software yang
+          dapat membantu saya dalam menyelesaikan project
         </p>
       </div>
       <div
@@ -120,8 +134,8 @@
           />
           <h1 class="text-lg font-bold my-4">Frontend Developer</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
-            error?
+            Bahasa pemrograman, framework, dan software yang saya gunakan
+            sebagai Frontend
           </p>
           <p class="mt-8 text-primary font-bold">Languages:</p>
           <p>HTML, CSS, Javascript, PHP, SQL, Git</p>
@@ -136,12 +150,11 @@
           />
           <h1 class="text-lg font-bold my-4">UI/UX Designer</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
-            error?
+            Design dan software design yang saya gunakan sebagai UI/UX Designer
           </p>
           <p class="mt-8 text-primary font-bold">Design:</p>
-          <p>UI, UX, Web, Apps</p>
-          <p class="mt-8 text-primary font-bold">Design Tools:</p>
+          <p>UI, UX, Web, Mobile Apps</p>
+          <p class="mt-8 text-primary font-bold">Software Design:</p>
           <p>Figma, Webflow, Canva, Blender</p>
         </div>
       </div>
@@ -151,19 +164,12 @@
     <!-- Portofolio Section Start -->
     <section id="porto" class="pb-30">
       <div
-        class="pt-20 pb-40 px-10 text-center bg-primary text-white absolute -z-10 w-full"
+        class="pt-10 pb-40 px-10 text-center bg-primary text-white absolute -z-10 w-full"
       >
-        <h1 class="text-3xl font-bold py-4 lg:text-4xl">Portofolio</h1>
-        <p class="mb-8 lg:mx-30 lg:text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          debitis, nemo sapiente dolores veniam possimus blanditiis optio
-          inventore consectetur numquam. Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Eligendi id reprehenderit accusantium, qui vero
-          maiores deserunt aperiam ullam nulla doloremque?
-        </p>
+        <h1 class="text-3xl font-bold py-10 lg:text-4xl">Portofolio</h1>
       </div>
       <div
-        class="flex flex-wrap gap-10 pt-120 px-8 sm:pt-85 md:justify-center md:flex-nowrap md:pt-85 lg:pt-75"
+        class="flex flex-wrap gap-10 px-8 relative pt-52 md:justify-center md:flex-nowrap"
       >
         <div
           class="text-center shadow-md shadow-primary px-4 py-8 border-primary border rounded-2xl bg-white"
@@ -172,10 +178,15 @@
           <h1 class="font-bold text-xl pt-4 text-primary lg:text-2xl">
             Vistaland
           </h1>
-          <p class="text-base lg:text-lg">
+          <p class="text-base lg:text-lg mb-4">
             Project web perumahan yang dibangun dengan menggunakan PHP dan
             MySQL.
           </p>
+          <a
+            href="http://vistaland.iceiy.com/"
+            class="text-white bg-primary p-2 rounded-md hover:bg-sky-700 hover:shadow-lg transition duration-200 ease-in-out"
+            >Kunjungi Website</a
+          >
         </div>
         <div
           class="text-center shadow-md shadow-primary px-4 py-8 border-primary border rounded-2xl bg-white"
@@ -193,28 +204,78 @@
     </section>
     <!-- Portofolio Section End -->
 
+    <!-- Sertifikat Section Start -->
+    <section id="sertif" class="bg-paper pt-15 pb-30">
+      <div class="px-8">
+        <div class="text-center py-10">
+          <h1 class="text-3xl font-bold py-4 text-primary lg:text-4xl">
+            Sertifikat
+          </h1>
+          <!-- <p class="min-w-20 lg:text-lg mb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+            modi.
+          </p> -->
+        </div>
+        <div class="flex flex-wrap justify-center gap-12">
+          <div class="bg-white shadow-xl text-center p-4 rounded-2xl w-100">
+            <img
+              class="w-90 justify-self-center"
+              src="src/img/sertifikat/PKS-1.jpg"
+              alt=""
+            />
+            <h1 class="font-bold text-xl pt-4 text-primary lg:text-2xl">
+              Bootcamp
+            </h1>
+            <p class="text-base mt-4">
+              Mengikuti Bootcamp Fullstack Web Developer yang mempelajari materi
+              Vue JS dan Laravel
+            </p>
+          </div>
+          <div class="bg-white shadow-xl text-center p-4 rounded-2xl w-100">
+            <img
+              class="w-90 justify-self-center"
+              src="src/img/sertifikat/Javascript Gundar 01.jpg"
+              alt=""
+            />
+            <h1 class="font-bold text-xl pt-4 text-primary lg:text-2xl">
+              Workshop
+            </h1>
+            <p class="text-base mt-4">
+              Mengikuti Workshop yang mempelajari dasar dari pemrograman
+              Javascript
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sertifikat Section End -->
+
     <!-- Footer Section Start -->
     <section class="bg-sky-950 text-white text-center pt-20 pb-6 px-5">
       <div class="flex flex-col">
         <h1 class="font-medium text-base lg:text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          quo.
+          Saya akan terus mengasah skill dengan mempelajari dan memperdalam ilmu
+          baru lainnya.
+        </h1>
+        <h1 class="font-medium text-base lg:text-lg">
+          Terima kasih telah melihat portofolio saya sampai akhir.
         </h1>
         <div class="flex justify-center gap-8 mt-10 mb-18">
           <a
             class="border rounded-full p-3 hover:bg-sky-900 hover:border-sky-950 hover:shadow-xl transition duration-200 ease-in-out"
             href=""
-            ><img src="src/img/linkedin.svg" alt=""
+            ><img src="src/img/linkedin.svg" alt="linkedin"
           /></a>
           <a
             class="border rounded-full p-3 hover:bg-sky-900 hover:border-sky-950 hover:shadow-xl transition duration-200 ease-in-out"
-            href=""
-            ><img src="src/img/instagram.svg" alt=""
+            href="https://www.instagram.com/mhs.erlangga_"
+            ><img src="src/img/instagram.svg" alt="instagram"
           /></a>
           <a
             class="border rounded-full p-3 hover:bg-sky-900 hover:border-sky-950 hover:shadow-xl transition duration-200 ease-in-out"
-            href=""
-            ><img src="src/img/phone.svg" alt=""
+            href="https://wa.me/6287860087009"
+            target="_blank"
+            ><img src="src/img/phone.svg" alt="phone"
           /></a>
         </div>
         <p class="text-sm">Created by Mahesa Erlangga © 2025</p>
